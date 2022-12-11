@@ -2,20 +2,20 @@
     margin: 0;
     padding: 0;
 }
-   header{
+header{
         background-image: url("../img/ragnarok-def.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 50vh;
         
     }
-    ul {
+ul {
     justify-content: right;
     align-items: center;
     padding-right: 30vh;  
 }
 
- li{
+li{
     list-style: none;
     margin: 1em;
     border: 1px solid white;
@@ -26,10 +26,8 @@
     height: 6vh;
     display: flex;
     align-items: center;
-    margin: 5vh;
-    
+    margin: 5vh; 
 }
-
 
 li:hover{
     
@@ -37,7 +35,6 @@ li:hover{
    /* transform: scale(2);
     transition-duration: 1;*/
 }
-
 
 li a{
     text-decoration: none;
